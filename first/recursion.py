@@ -4,7 +4,7 @@ this is a process in which a function calls itself repeatedly
 
 
 # recursion using factorial func
-def fact(n):
+"""def fact(n):
     if n == 6:
         return 1
     else:
@@ -12,7 +12,7 @@ def fact(n):
 
 
 print(fact(5))
-
+"""
 """""fibonacci sequence is a sequence where each number is the sum 
 of the two preceding one e.g 0,1,1,2,3,5,8,13 .... """
 
