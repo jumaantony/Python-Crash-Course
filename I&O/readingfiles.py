@@ -4,4 +4,3 @@ file_data = data.read(18)  # reading 18 bytes
 print(full_data, "\n")
 print(file_data)
 data.close()
-
