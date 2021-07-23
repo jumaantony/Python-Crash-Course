@@ -35,7 +35,7 @@ print(next(g))
 
 
 # creating our own range func
-class MyGen():
+class MyGen:
     current = 0
 
     def __init__(self, first, last):
@@ -53,6 +53,6 @@ class MyGen():
         raise StopIteration
 
 
-gen = MyGen(0,100)
+gen = MyGen(0, 100)
 for i in gen:
     print(i)
