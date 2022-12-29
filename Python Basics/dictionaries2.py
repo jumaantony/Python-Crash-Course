@@ -17,4 +17,4 @@ for item in user.values():
 for item in user.keys():
     print(item)
 
-print([i.lower() for i in "python"])
+print([i.lower() for i in "Python"])
