@@ -1,3 +1,6 @@
+# comprehension is as a result of creating a new object where each element
+# is as a result of some operations applied to each member of another sequence or iterable
+
 # list comprehension
 my_list = [char.upper() for char in 'hello juma']
 my_list2 = [number for number in range(0, 100)]

@@ -1,3 +1,7 @@
+# The filter() function returns an iterator where 
+# the items are filtered through a function to test 
+# if the item is accepted or not.
+
 my_list = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
