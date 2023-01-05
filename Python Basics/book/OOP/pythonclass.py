@@ -1,3 +1,6 @@
+# Classes provide a means of bundling data and functionality together. 
+# Creating a new class creates a new type of object, allowing new instances of that type to be made.
+
 class Student:
     """Common base class for all students"""
     student_count = 0
@@ -26,18 +29,18 @@ std4.PrintStudentData()
 # Accessing attributes
 print("am accessing the attributes. the total students are: ", Student.student_count)
 
-# functions used to access attributes
-print("checking if std1 has the id attribute:", hasattr(std1, 'id'), "\n"
-                                                                     "returning the value of std1 attribute:",
-      getattr(std1, 'id'), "\n"
-                           "setting the id attribute of std1 to 8001:", setattr(std1, 'id', 8001), "\n"
-                                                                                                   "deleting the id of std1:",
-      delattr(std1, 'id'), "\n", "\n"
-      )
+# # functions used to access attributes
+# print("checking if std1 has the id attribute:", hasattr(std1, 'id'), "\n"
+#                                                                      "returning the value of std1 attribute:",
+#       getattr(std1, 'id'), "\n"
+#                            "setting the id attribute of std1 to 8001:", setattr(std1, 'id', 8001), "\n"
+#                                                                                                    "deleting the id of std1:",
+#       delattr(std1, 'id'), "\n", "\n"
+#       )
 
 # built in attributes
-print("Student.__doc__ : ", Student.__doc__)
-print("Student.__name__: ", Student.__name__)
-print("Student.__dict__): ", Student.__dict__)
-print("Student.__module__: ", Student.__module__)
-print("Student.__bases__: ", Student.__bases__)
+# print("Student.__doc__ : ", Student.__doc__)
+# print("Student.__name__: ", Student.__name__)
+# print("Student.__dict__): ", Student.__dict__)
+# print("Student.__module__: ", Student.__module__)
+# print("Student.__bases__: ", Student.__bases__)

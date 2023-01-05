@@ -24,5 +24,7 @@ class Archer(User):
 wizard1 = Wizard('Merlin', 50)
 archer1 = Archer('hood', 500)
 
+wizard1.sign_in()
 wizard1.attack()
 archer1.attack()
+
