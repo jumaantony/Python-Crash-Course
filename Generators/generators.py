@@ -13,8 +13,8 @@ def make_list(num):
     return result
 
 
-my_list = make_list(50)
-print(my_list)
+# my_list = make_list(50)
+# print(my_list)
 
 
 # print(list(range(1000000)))
@@ -35,24 +35,24 @@ print(next(g))
 
 
 # creating our own range func
-class MyGen:
-    current = 0
+# class MyGen:
+#     current = 0
 
-    def __init__(self, first, last):
-        self.first = first
-        self.last = last
+#     def __init__(self, first, last):
+#         self.first = first
+#         self.last = last
 
-    def __iter__(self):
-        return self
+#     def __iter__(self):
+#         return self
 
-    def __next__(self):
-        if MyGen.current < self.last:
-            num = MyGen.current
-            MyGen.current += 1
-            return num
-        raise StopIteration
+#     def __next__(self):
+#         if MyGen.current < self.last:
+#             num = MyGen.current
+#             MyGen.current += 1
+#             return num
+#         raise StopIteration
 
 
-gen = MyGen(0, 100)
-for i in gen:
-    print(i)
+# gen = MyGen(0, 100)
+# for i in gen:
+#     print(i)
